@@ -29,6 +29,8 @@
     remote_src: yes
     extra_opts: # only unzip the executable
       - aapt2
+  tags:
+    - apktools
 
 - name: Remove aapt2 zip file
   become: yes
